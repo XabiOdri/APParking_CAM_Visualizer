@@ -1,0 +1,16 @@
+*.*
+Makefile
+makefile
+Doxyfile
+!/APParking/src/*.c
+!/APParking/src/*.h
+!/APParking/src/image/*.c
+!/APParking/src/image/*.h
+!/APParking/src/domain/*.c
+!/APParking/src/domain/*.h
+!/APParking/src/hw/*.c
+!/APParking/src/hw/*.h
+!/APParking/src/io/*.c
+!/APParking/src/io/*.h
+!.gitignore
+!/APParking/README.txt
