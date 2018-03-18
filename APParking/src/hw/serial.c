@@ -14,10 +14,14 @@
 #define clear_terminal	printf("\x1B[2J"); 		//Clear terminal
 #define setCursorLeft	printf("\x1B[H"); 		//Set cursor to top left of terminal
 
-void printSerial(char *str)
+void clearSerialTerminal(void)
 {
 	setCursorLeft;
 	clear_terminal;
+}
+
+void printSerial(char *str)
+{
 	printf("%s", str);
 }
 

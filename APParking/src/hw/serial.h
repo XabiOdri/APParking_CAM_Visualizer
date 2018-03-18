@@ -8,6 +8,7 @@
 #ifndef SRC_SERIAL_H_
 #define SRC_SERIAL_H_
 
+void clearSerialTerminal(void);
 void printSerial(char str[]);
 void readSerial(void);
 
