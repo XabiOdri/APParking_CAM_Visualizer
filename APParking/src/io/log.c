@@ -96,6 +96,9 @@ void Write_Log(char *pData)
 	_Close_Log_File();
 }
 
+/**
+* 	@brief 		Imprime el log en la terminal de linea serie
+*/
 void Write_Log_Serial(char *pData)
 {
 	printSerial(pData);
