@@ -12,6 +12,7 @@
 
 #include <ff.h>
 #include <sd.h>
+#include <serial.h>
 
 /*--------------------------------------------------------------------------------------*/
 /*                            PRIVATE FUNCTION DECLARATIONS                             */
@@ -94,6 +95,12 @@ void Write_Log(char *pData)
 
 	_Close_Log_File();
 }
+
+void Write_Log_Serial(char *pData)
+{
+	printSerial(pData);
+}
+
 
 /****************************************************************************************/
 /*                                      module.c                                        */
