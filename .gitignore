@@ -14,3 +14,4 @@ Doxyfile
 !/APParking/src/io/*.h
 !.gitignore
 !/APParking/README.txt
+!/sm_pc/APParking_CAM_Visualizer/APParking_CAM_Visualizer/APParking_CAM_Visualizer.cpp
